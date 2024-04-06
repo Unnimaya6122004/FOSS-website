@@ -228,6 +228,7 @@
             const message = userMessageInput.value;
             addMessage('user', message);
             userMessageInput.value = '';
+            // Handle user commands if needed
             handleCommand(message);
         }
 
@@ -238,9 +239,19 @@
             chatBox.scrollTop = chatBox.scrollHeight;
         }
 
-        function handleCommand(command) {
-          
-        }
+       function handleCommand(command) {
+    if (command.startsWith("vote ")) {
+        const voteDetails = command.substring(5); // Extract voting details
+        castVote(voteDetails); // Cast a vote on the blockchain
+    }
+}
+
+function castVote(details) {
+    // This is a placeholder function to integrate blockchain voting
+    addMessage('system', `Your vote for '${details}' has been cast.`);
+}
+
+
     </script>
 </body>
 </html>
