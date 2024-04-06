@@ -228,7 +228,6 @@
             const message = userMessageInput.value;
             addMessage('user', message);
             userMessageInput.value = '';
-            // Handle user commands if needed
             handleCommand(message);
         }
 
@@ -236,13 +235,11 @@
             const messageElement = document.createElement('div');
             messageElement.textContent = `${sender}: ${message}`;
             chatBox.appendChild(messageElement);
-            // Scroll to bottom
             chatBox.scrollTop = chatBox.scrollHeight;
         }
 
         function handleCommand(command) {
-            // Handle commands here
-            // For example, you can add specific actions for different commands
+          
         }
     </script>
 </body>
