@@ -1,4 +1,7 @@
 # FOSS Universe: A Gateway to Free and Open Source Software
+![FOSS Image](https://media.istockphoto.com/id/1039072216/photo/open-source-pc-board.webp?b=1&s=170667a&w=0&k=20&c=8eRK4kDbxqZdYT-rng0BODJfS3RNvhQ_0QG6Qc1_sxc=)
+
+
 ### Project Overview:
 
 FOSS Universe is a dynamic and user-friendly website dedicated to showcasing a curated selection of free and open-source software (FOSS). With the principle of promoting software freedom and collaboration, this platform serves as a one-stop hub for users to explore, discover, and access a wide range of FOSS tools and applications. From operating systems like Linux to creative tools like GIMP and Blender, FOSS Universe spans various categories to cater to diverse user needs.
@@ -14,6 +17,7 @@ Interactive Chat Box: Recognizing the importance of community feedback and engag
 #### Design and Usability:
 
 Designed with simplicity and ease of use in mind, the website features a clean layout and intuitive navigation. The removal of the search box in favor of a descriptive section about free and open-source software emphasizes the educational aspect of the site, guiding newcomers through the basics and benefits of FOSS. The responsive design ensures that the website is accessible and functional across various devices and screen sizes.
+![FOSS Image](https://miro.medium.com/v2/resize:fit:1200/1*44UXHdH0lxIvxWRvlMId-g.png)
 
 #### Limitations:
 
