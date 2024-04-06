@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOSS Universe - Free and Open Source Software</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #1a237e; /* Dark blue color */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.2em;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .search-bar {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .search-bar input {
+            width: 60%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .featured-foss {
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .featured-foss h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .foss-icon-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            justify-items: center;
+        }
+
+        .foss-icon-grid button {
+            border: none;
+            background: none;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .foss-icon-grid button:hover {
+            transform: scale(1.1);
+        }
+
+        .foss-icon-grid img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .chat {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            height: 200px;
+            overflow-y: auto;
+        }
+
+        .user-input {
+            display: flex;
+            align-items: center;
+        }
+
+        .user-input input {
+            flex: 1;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        .user-input button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #1a237e;
+            color: #fff;
+            cursor: pointer;
+            font-size: 1.2em;
+            transition: background-color 0.3s;
+        }
+
+        .user-input button:hover {
+            background-color: #3949ab;
+        }
+
+        .details-button {
+            display: block;
+            margin: 0 auto 20px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #1a237e;
+            color: #fff;
+            cursor: pointer;
+            font-size: 1.2em;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+
+        .details-button:hover {
+            background-color: #3949ab;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FOSS Universe</h1>
+        <p>Empowering users with freedom and collaboration. Explore the world of free and open-source software!</p>
+    </header>
+
+    <main>
+         <section>
+            <h2>About Free and Open Source Software (FOSS)</h2>
+            <p>Free and open-source software (FOSS) is software that can be classified as both free software and open-source software. That is, anyone is freely licensed to use, copy, study, and change the software in any way, and the source code is openly shared so that people are encouraged to voluntarily improve the design of the software.</p>
+            <p>FOSS promotes a more collaborative and transparent approach to software development, allowing communities of developers and users to collectively improve and maintain software projects.</p>
+            <p>Some key characteristics of FOSS include:</p>
+            <ul>
+                <li>Freedom to use the software for any purpose.</li>
+                <li>Access to the source code, allowing users to study and modify the software.</li>
+                <li>Permission to redistribute copies of the software to others.</li>
+                <li>Encouragement of collaboration and community-driven development.</li>
+            </ul>
+            <p>Many popular software projects and tools, including operating systems, web browsers, office suites, programming languages, and multimedia applications, are available as FOSS.</p>
+        </section>
+
+        <section class="featured-foss">
+            <h2>Featured FOSS</h2>
+            <div class="foss-icon-grid">
+                <button onclick="window.location.href='https://www.linux.org/'">
+                    <img src="https://static-00.iconduck.com/assets.00/linux-icon-2048x2048-sy06t4un.png" alt="Linux">
+                </button>
+                <button onclick="window.location.href='https://www.mozilla.org/firefox/'">
+                    <img src="https://cdn0.iconfinder.com/data/icons/mozilla-icons/256/firefox_png.png" alt="Firefox">
+                </button>
+                <button onclick="window.location.href='https://www.libreoffice.org/'">
+                    <img src="https://static-00.iconduck.com/assets.00/libreoffice-writer-icon-512x506-jkg6de1q.png" alt="LibreOffice">
+                </button>
+                <button onclick="window.location.href='https://www.gimp.org/'">
+                    <img src="https://cdn.iconscout.com/icon/free/png-256/free-gimp-5-1175224.png" alt="GIMP">
+                </button>
+                <button onclick="window.location.href='https://inkscape.org/'">
+                    <img src="https://cdn.icon-icons.com/icons2/2415/PNG/512/inkscape_original_wordmark_logo_icon_146471.png" alt="Inkscape">
+                </button>
+                <button onclick="window.location.href='https://httpd.apache.org/'">
+                    <img src="https://www.iconshock.com/image/Shine7/Communications/apache_server" alt="Apache">
+                </button>
+                <button onclick="window.location.href='https://www.gnu.org/'">
+                    <img src="https://cdn.icon-icons.com/icons2/2148/PNG/512/gnu_icon_132361.png" alt="GNU">
+                </button>
+                <button onclick="window.location.href='https://www.php.net/'">
+                    <img src="https://static-00.iconduck.com/assets.00/php-icon-2048x2048-79jhb719.png" alt="PHP">
+                </button>
+                <button onclick="window.location.href='https://www.python.org/'">
+                    <img src="https://1000logos.net/wp-content/uploads/2020/08/Python-Logo.png" alt="Python">
+                </button>
+                <button onclick="window.location.href='https://www.android.com/'">
+                    <img src="https://icons.iconarchive.com/icons/martz90/circle/512/android-icon.png" alt="Android">
+                </button>
+                <button onclick="window.location.href='https://www.videolan.org/vlc/'">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/VLC_icon.png" alt="VLC">
+                </button>
+                <button onclick="window.location.href='https://www.blender.org/'">
+                    <img src="https://static-00.iconduck.com/assets.00/blender-icon-2048x1905-xng8cdjs.png" alt="Blender">
+                </button>
+                <button onclick="window.location.href='https://jitsi.org/'">
+                    <img src="https://static-00.iconduck.com/assets.00/jitsi-icon-1024x911-252lpdtd.png" alt="Jitsi">
+                </button>
+                <button onclick="window.location.href='https://brave.com/'">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Brave_icon_lionface.png" alt="Brave">
+                </button>
+            </div>
+        </section>
+
+        <button class="details-button" onclick="window.location.href='fossabout.html'">View Software Details</button>
+
+        <div class="chat">
+            <div class="message">Welcome to FOSS Universe Chat!</div>
+        </div>
+
+        <div class="user-input">
+            <input type="text" id="userMessage" placeholder="Type your command...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </main>
+
+    <script>
+        const chatBox = document.querySelector('.chat');
+        const userMessageInput = document.getElementById('userMessage');
+
+        function sendMessage() {
+            const message = userMessageInput.value;
+            addMessage('user', message);
+            userMessageInput.value = '';
+            // Handle user commands if needed
+            handleCommand(message);
+        }
+
+        function addMessage(sender, message) {
+            const messageElement = document.createElement('div');
+            messageElement.textContent = `${sender}: ${message}`;
+            chatBox.appendChild(messageElement);
+            // Scroll to bottom
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+
+        function handleCommand(command) {
+            // Handle commands here
+            // For example, you can add specific actions for different commands
+        }
+    </script>
+</body>
+</html>
